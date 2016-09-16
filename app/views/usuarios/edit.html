@@ -1,0 +1,20 @@
+<h1>Usuários</h1>
+
+<form ng-submit="doSubmitEdit()">
+  <div class="form-group">
+    <label for="nome">Nome</label>
+    <input type="text" class="form-control" id="nome" placeholder="Nome Completo" ng-model="nome">
+  </div>
+  <div class="form-group">
+    <label for="login">Login</label>
+    <input type="text" class="form-control" id="login" placeholder="Login" ng-model="login">
+  </div>
+  <div class="form-group">
+    <label for="email">E-mail</label>
+    <input type="email" class="form-control" id="email" placeholder="email@host.com" ng-model="email">
+  </div>
+
+  <button type="submit" class="btn btn-success">Salvar</button>
+  <button type="button" class="btn btn-default" ng-click="doEditCancel()">Cancelar</button>
+  
+</form>

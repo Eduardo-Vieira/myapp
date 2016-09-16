@@ -1,0 +1,15 @@
+{
+  "name": "myapp",
+  "authors": [
+    "Eduardo Vieira <gceduvieira@gmail.com>"
+  ],
+  "description": "projeto angular",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://wrsolucoesinformatica.com",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular-route": "^1.5.8"
+  }
+}

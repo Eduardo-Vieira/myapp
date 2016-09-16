@@ -1,0 +1,24 @@
+<h1>Usuários</h1>
+
+<button class="btn btn-primary" ng-click="doNovo()"><i class="glyphicon glyphicon-plus-sign"></i> Novo</button>
+
+<table class="table table-hover">
+  <thead>
+      <tr>
+          <th>#</th>
+          <th>Nome Completo</th>
+          <th>Login</th>
+          <th>E-mail</th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr ng-repeat="usuario in usuarios">
+          <td>{{usuario.id}}</td>
+          <td>{{usuario.nome}}</td>
+          <td>{{usuario.login}}</td>
+          <td>{{usuario.email}}</td>
+          <td><a class="btn btn-primary " href="#/usuarios.detail/{{usuario.id}}"><i class="glyphicon glyphicon-eye-open"></i> Detalhes</a></td>
+      </tr>
+  </tbody>
+</table>
